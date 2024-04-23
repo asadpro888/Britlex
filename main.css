@@ -1,0 +1,128 @@
+.bttn {
+  padding: 10px;
+  border: none;
+  color: antiquewhite;
+  background: black;
+  border-radius: 15px;
+  font-size: 36px;
+  margin-top: 30px;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px;
+  margin: auto;
+}
+
+.box1 {
+  width: 50%;
+}
+
+.box2 {
+  width: 50%;
+}
+
+.h1 {
+  text-transform: uppercase;
+  width: 20%;
+}
+
+.p {
+  width: 65%;
+  opacity: 90%;
+}
+
+.bitbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.card {
+  background: beige;
+  border: none;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.sec-one {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.article1 {
+  width: 50%;
+}
+
+.article2 {
+  width: 50%;
+}
+
+.box-tox {
+  width: 50%;
+}
+
+.box-tox1 {
+  width: 50%;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.spn {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(red, pink, blue);
+}
+
+.main-wrap {
+  margin-left: 80px;
+  margin-right: 80px;
+  box-shadow: 1px 1px 9px 9px black;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.logo {
+  font-size: 36px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.forlogo {
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}/*# sourceMappingURL=main.css.map */

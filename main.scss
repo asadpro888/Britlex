@@ -1,0 +1,100 @@
+$padding: 20px;
+$backcolor: beige;
+$forecolor: black;
+$width: 50%;
+
+@mixin box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+    
+}
+@mixin button{
+    padding: 10px;
+    border: none;
+    color: antiquewhite;
+    background: black;
+    border-radius: 15px;
+    font-size: 36px;
+}
+.bttn{
+    @include button;
+    margin-top: 30px;
+}
+.navbar{
+    @include box;
+    margin: auto;
+}
+.box1{
+    width: $width;
+}
+.box2{
+    width: $width;
+}
+.h1{
+    text-transform: uppercase;
+    width: 20%;
+}
+.p{
+    width: 65%;
+    opacity: 90%;
+}
+.bitbox{
+    @include box;
+}
+.card{
+    background: $backcolor;
+    border: none
+}
+.section{
+    @include box;
+}
+.sec-one{
+    @include box;
+}
+.article1{
+    width: $width;
+}
+.article2{
+    width: $width;
+}
+.box-tox{
+    width: $width;
+}
+.box-tox1{
+    width: $width;
+}
+.wrap{
+    @include box;
+}
+.spn{
+    font-size: 30px;
+    font-weight: 900;
+}
+::-webkit-scrollbar{
+    width: 5px;
+    background-color: black;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(red,pink,blue);
+}
+.main-wrap{
+    margin-left: 80px;
+    margin-right: 80px;
+    box-shadow: 1px 1px 9px 9px black;
+}
+.wrapper{
+    @include box;
+}
+.footer{
+    @include box;
+}
+.logo{
+    font-size: 36px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.forlogo{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
